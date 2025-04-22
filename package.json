@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && move out build-dir",
+    "build": "next build",
     "export": "next export",
     "start": "next start",
     "deploy": "npm run build && npm run export",
