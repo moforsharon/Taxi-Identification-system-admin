@@ -4,12 +4,12 @@ import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts"
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 
 const data = [
-  { name: "Route A", vehicles: 120 },
-  { name: "Route B", vehicles: 98 },
-  { name: "Route C", vehicles: 86 },
-  { name: "Route D", vehicles: 75 },
-  { name: "Route E", vehicles: 65 },
-  { name: "Route F", vehicles: 54 },
+  { name: "Route Y1", vehicles: 98 },
+  { name: "Route Y2", vehicles: 86 },
+  { name: "Route Y3", vehicles: 75 },
+  { name: "Route Y4", vehicles: 65 },
+  { name: "Route Y5", vehicles: 54 },
+  { name: "Route Y6", vehicles: 42 },
 ]
 
 export function RouteAllocationChart() {

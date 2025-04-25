@@ -126,45 +126,45 @@ export default function Dashboard() {
         </Card>
         <Card className="lg:col-span-1">
           <CardHeader>
-            <CardTitle>Municipality Distribution</CardTitle>
-            <CardDescription>Vehicles by municipality</CardDescription>
+            <CardTitle>Yaoundé District Distribution</CardTitle>
+            <CardDescription>Vehicles by district in Yaoundé</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium">Douala</span>
+                  <span className="text-sm font-medium">Yaoundé 1</span>
                 </div>
-                <span className="font-medium">486</span>
+                <span className="font-medium">126</span>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium">Yaoundé</span>
+                  <span className="text-sm font-medium">Yaoundé 2</span>
                 </div>
-                <span className="font-medium">352</span>
+                <span className="font-medium">98</span>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium">Buea</span>
+                  <span className="text-sm font-medium">Yaoundé 3</span>
                 </div>
-                <span className="font-medium">187</span>
+                <span className="font-medium">87</span>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium">Limbe</span>
+                  <span className="text-sm font-medium">Yaoundé 4</span>
                 </div>
-                <span className="font-medium">123</span>
+                <span className="font-medium">76</span>
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium">Bafoussam</span>
+                  <span className="text-sm font-medium">Yaoundé 5</span>
                 </div>
-                <span className="font-medium">100</span>
+                <span className="font-medium">65</span>
               </div>
             </div>
           </CardContent>

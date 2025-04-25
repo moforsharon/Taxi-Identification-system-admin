@@ -3,8 +3,8 @@ import RoutesPage from "@/components/routes-page"
 import Layout from "@/components/layout"
 
 export const metadata: Metadata = {
-  title: "Routes - Taxi Management System",
-  description: "Manage taxi routes in the system",
+  title: "Yaoundé Routes - Taxi Management System",
+  description: "Manage taxi routes in Yaoundé municipality",
 }
 
 export default function Routes() {
